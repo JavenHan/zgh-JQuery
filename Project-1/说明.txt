@@ -1,0 +1,1 @@
+这个抽奖系统是参考了http://www.thinkcart.net/share/lottery-marquee/ 来实现的，只是对于图片的显示进行了改进，。
