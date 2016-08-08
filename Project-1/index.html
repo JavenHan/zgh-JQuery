@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no"
+          id="viewport">
+    <title>幸运抽奖</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/test.js"></script>
+</head>
+<body>
+<div class="main">
+    <!-- 标题 -->
+    <div class="title">
+        <h1>幸运抽奖机</h1>
+    </div>
+    <!-- 抽奖区 -->
+    <div class="lucky" style="margin-top: 3rem;">
+        <div class="luckybg" style=" background-image: url('images/lottery.png');
+        background-size: 100% 100%;">
+            <div class="lottery lottery1"><img src="images/slot1.png" alt="奖品1" ></div>
+            <div class="lottery lottery2"><img src="images/slot2.png" alt="奖品1" ></div>
+            <div class="lottery lottery3"><img src="images/slot3.png" alt="奖品1" ></div>
+            <div class="lottery lottery4"><img src="images/slot4.png" alt="奖品1" ></div>
+            <div class="lottery lottery5"><img src="images/slot5.png" alt="奖品1" ></div>
+            <div class="lottery lottery6"><img src="images/slot6.png" alt="奖品1" ></div>
+        </div>
+        <div id="button" style="width: 34%;height: 44px;position:absolute;top: 394px;left: 33%;cursor:hand;"
+             onclick="choujiang()"></div>
+    </div>
+    <!-- 中奖信息滚动 -->
+    <div class="lucky_guy">
+        <span>恭喜&nbsp;&nbsp;</span><span>X X X</span><span
+            style="color:#ffc839;">&nbsp;&nbsp;获得了&nbsp;&nbsp;</span><span>XXXXXX</span>
+    </div>
+    <!-- 活动说明 -->
+    <div class="activitie">
+        <h2>活动规则</h2>
+        <div class="guize">
+            <p>1、登录xxxxxxx投票后，开启幸运抽奖;</p>
+            <p>2、若您中奖后，请在“个人中心--我的优惠劵”界面查询;</p>
+            <p>3、奖品:xxxxxxxx优惠券，有效期8月31日，每个订单限用一张优惠券.</p>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
